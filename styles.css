@@ -1,0 +1,62 @@
+/* **********************GOOGLE FONT LINK**************** */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+}
+
+
+body {
+background-color: #686de0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+}
+.conatainer{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow:1 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1) ;
+  padding: 50px 20px;
+  text-align: center;
+  max-width: 100%;
+  width: 800px;
+
+}
+h3{
+  margin: 0;
+  opacity: 0.5;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+
+}
+.joke{
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  margin: 50px auto;
+  max-width: 600px;
+
+}
+.jokeBtn{
+  background-color: #9F68E0;
+  border: 0;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow:1 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1) ;
+  padding: 14px 40px;
+}
+
+.jokeBtn:active{
+  transform: scale(0.98);
+}
